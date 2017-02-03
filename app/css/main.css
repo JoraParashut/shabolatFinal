@@ -1,0 +1,207 @@
+@import url(ribbons.css);
+@import url(media.css);
+* {
+  margin: 0;
+  padding: 0; }
+
+/*color for main style stack */
+/*$sub-color:; /*additional color for better design and user experience */
+body {
+  background-color: lightgrey;
+  line-height: 1.5;
+  font-family: 'Muli', sans-serif;
+  background: url(../img/velikgray3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+h3, h4 {
+  font-family: 'Indie Flower', cursive;
+  color: white; }
+
+h2 {
+  font-family: 'Indie Flower', cursive; }
+
+header {
+  width: 70%;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  flex-flow: column  nowrap;
+  background-color: white; }
+
+.header-flexInWrapper {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center; }
+
+.header-flexInWrapper h1 {
+  margin-left: 20px;
+  font-size: 2.7em;
+  font-family: 'Bahiana', cursive; }
+
+.header-flexInWrapper div {
+  margin-right: 20px; }
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.main-slider_headline-container {
+  display: flex;
+  justify-content: space-between; }
+
+.main-headline {
+  width: 40%;
+  padding: 10px;
+  box-sizing: border-box; }
+
+.main-headline p {
+  margin-top: 10px; }
+
+.slider {
+  width: 60%;
+  overflow: hidden; }
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0; }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left; }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  max-width: 100%;
+  border: 0; }
+
+.services {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  flex-flow: column nowrap; }
+
+.services-item {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  margin-top: 20px; }
+
+.services-item_purple {
+  box-shadow: 2px 2px 2px 2px #F08080; }
+
+.services-item_orange {
+  box-shadow: 2px 2px 2px 2px #F4A460; }
+
+.services-item_blue {
+  box-shadow: 2px 2px 2px 2px #008080; }
+
+.services-item p {
+  margin-left: 40px;
+  padding: 10px;
+  font-size: 1.2em; }
+
+.services-item h3 {
+  margin-left: 40px;
+  margin-top: 20px;
+  color: black; }
+
+.services-item_img-wrapper {
+  width: 100%; }
+
+.services-item_img-wrapper img {
+  max-width: 100%;
+  height: auto; }
+
+.black_sea {
+  width: 100%;
+  margin-top: 60px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/bigbeach.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 75%; }
+
+.black_sea h3 {
+  color: black;
+  font-size: 2em; }
+
+.galbox {
+  margin-top: 60px; }
+
+.map {
+  margin-top: 40px; }
+
+footer {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.2em;
+  color: white;
+  display: flex;
+  background-color: coral; }
+
+.footwrap {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.footwrap h4 {
+  height: 20%;
+  margin-top: 20px; }
+
+.numberblock {
+  height: 80%; }
+
+.numberblock li {
+  margin-top: 10px; }
+
+.adress {
+  width: 200px; }
+
+.my_social_contacts {
+  width: 100%; }
+
+.my_social_contacts_item {
+  display: flex;
+  margin-bottom: 20px; }
+
+.my_social_contacts_item p {
+  margin-left: 10px; }
+
+.my_social_contacts_item a {
+  color: white; }
+
+.contacts_icon img {
+  width: 50px; }

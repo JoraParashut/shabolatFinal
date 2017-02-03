@@ -1,0 +1,30 @@
+{
+  "name": "shabolat",
+  "version": "1.0.0",
+  "description": "This is the final version of that annoying site, which can't be done for a long time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoraParashut/shabolatFinal.git"
+  },
+  "author": "JoraParashut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoraParashut/shabolatFinal/issues"
+  },
+  "homepage": "https://github.com/JoraParashut/shabolatFinal#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-uglifyjs": "^0.6.2",
+    "uglifyjs": "^2.4.10"
+  }
+}
